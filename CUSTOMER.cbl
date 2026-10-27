@@ -1,0 +1,23 @@
+
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. CUSTFMT.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WS-CUSTOMER-ID   PIC X(12).
+       01 WS-CUSTOMER-NAME PIC X(40).
+       01 WS-ACCOUNT-TYPE  PIC X(20).
+
+       PROCEDURE DIVISION.
+           ACCEPT WS-CUSTOMER-ID
+           ACCEPT WS-CUSTOMER-NAME
+           ACCEPT WS-ACCOUNT-TYPE
+
+           DISPLAY "Customer ID: "
+               FUNCTION TRIM(WS-CUSTOMER-ID)
+           DISPLAY "Name: "
+               FUNCTION TRIM(WS-CUSTOMER-NAME)
+           DISPLAY "Account Type: "
+               FUNCTION TRIM(WS-ACCOUNT-TYPE)
+
+           STOP RUN.
