@@ -1,3 +1,6 @@
+//Experiment 4 — Student Marks Processing Using COBOL Tables (OCCURS).
+//Objective: To store multiple marks using OCCURS, calculate the total and average, and display the result.
+
 IDENTIFICATION DIVISION.
 PROGRAM-ID. TABLE-HANDLING.
 
