@@ -1,3 +1,6 @@
+//Problem Statement: Calculate the Total Salary of an Employee Using a Subprogram
+//Objective: To pass employee salary details from a main program to a subprogram using CALL and LINKAGE SECTION, and calculate the total salary.
+
 IDENTIFICATION DIVISION.
 PROGRAM-ID. MAINPROG.
 
